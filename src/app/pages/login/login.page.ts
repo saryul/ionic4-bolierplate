@@ -163,7 +163,7 @@ export class LoginPage implements OnInit {
 
     await alert.present();
   }
-  async doLinkedIn() {
+  async dolinkedIn() {
     this.linkedin.hasActiveSession().then((active) => console.log('has active session?', active));
 
     // login
